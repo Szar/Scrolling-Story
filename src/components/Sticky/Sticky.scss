@@ -1,0 +1,48 @@
+.sticky--container {
+	@media screen and (max-width: 836px) {
+		display: block;
+	}
+	@media screen and (min-width: 837px) {
+		.sticky--item {
+			position: -webkit-sticky;
+			position: sticky;
+		}
+	}
+
+	&:not(.sticky--overlay) {
+		display: flex;
+		flex-direction: column;
+
+		@media screen and (min-width: 837px) {
+			flex-direction: row;
+
+			.sticky--item {
+				align-items: center;
+				align-self: flex-start;
+				display: flex;
+				margin: 0;
+				width: 100%;
+				justify-content: center;
+				top: 0;
+			}
+
+			>* {
+				flex: 1;
+			}
+		}
+	}
+
+	&.sticky--overlay {
+		.sticky--item {
+			@media screen and (min-width: 837px) {
+				margin: 0;
+				left: 0;
+				right: 0;
+			}
+		}
+
+		.sticky--text {
+			position: relative;
+		}
+	}
+}

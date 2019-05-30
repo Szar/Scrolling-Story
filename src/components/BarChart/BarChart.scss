@@ -1,0 +1,23 @@
+.bar-chart {
+	position: relative;
+	display: block;
+	width: 100%;
+	svg {
+		overflow: visible;
+	
+		.bar {
+			shape-rendering: crispEdges;
+		}
+	
+		.gridline {
+	
+			path,
+			line {
+				fill: none;
+				stroke: #000;
+				shape-rendering: crispEdges;
+				stroke-width: 1px;
+			}
+		}
+	}
+}
