@@ -1,6 +1,6 @@
 {
-  "name": "scrolling-page-template",
-  "homepage": "https://api.frac.tl/clients/fractl/scroll-template/",
+  "name": "scrolling-story",
+  "homepage": "https://github.com/Szar/Scrolling-Story",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
