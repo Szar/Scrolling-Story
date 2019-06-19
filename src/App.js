@@ -102,7 +102,7 @@ class App extends React.Component {
 
 					<section className="section--full-width section--dark">
 							<div className="container">
-								<h2>Quisque consequat sed quam porta faucibus</h2>
+								<h2>Quisque Consequat sed Quam</h2>
 							</div>
 							<Sticky 
 								id="sticky-example-3" 
@@ -132,7 +132,7 @@ class App extends React.Component {
 
 					<section>
 						<div className="container">
-							<h2>Quisque consequat sed quam porta faucibus</h2>
+							<h2>Quisque Consequat Porta</h2>
 							<Sticky 
 								id="sticky-example-2" 
 								align="left"
@@ -148,10 +148,20 @@ class App extends React.Component {
 						<div className="container">
 							<p>Cras nec mattis felis. Nullam malesuada volutpat pellentesque. Integer at metus nec turpis mattis eleifend et et dui. Fusce tincidunt odio ac euismod vehicula. Vestibulum sed risus at metus ornare pellentesque eget pulvinar arcu. Proin pretium efficitur quam, ac malesuada ante accumsan eget. Proin ac lacus a urna rhoncus sodales id et diam. Phasellus lacus urna, imperdiet et metus ac, ullamcorper mollis est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque commodo purus accumsan ullamcorper viverra. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer id eros at neque euismod ultricies.</p>
 							<p>Quisque consequat sed quam porta faucibus. Sed velit nunc, ultricies et pharetra vitae, fermentum sit amet metus. Fusce eget pretium mauris. Nam at faucibus massa. Vivamus placerat varius eros, in tincidunt massa. Nam vel dignissim purus. Proin vulputate accumsan dui, ut vestibulum massa varius sit amet. Sed ut diam nibh. Morbi euismod nisi ex. Nulla feugiat accumsan mauris vitae tristique. Duis laoreet erat molestie orci mattis tincidunt. Phasellus id vehicula justo. Donec justo neque, iaculis sed condimentum sed, mollis at neque.</p>
+							<h2>Methodology</h2>
 							<p>Aenean faucibus risus mattis consectetur sollicitudin. Sed fermentum odio mollis, convallis lectus malesuada, varius sapien. Sed ipsum ex, gravida id dictum nec, fermentum ac nunc. Nunc nisi magna, cursus eget dolor id, ullamcorper consectetur dui. Donec at orci elementum, feugiat augue non, volutpat justo. In sollicitudin sapien vel magna mattis finibus. Nulla eu diam augue. Donec quis ex eget massa eleifend rhoncus id porta erat. Ut eleifend risus et quam accumsan tempor.</p>
+							<ul>
+								<li><a href="#">http://sourceurl/</a></li>
+								<li><a href="#">http://sourceurl/</a></li>
+								<li><a href="#">http://sourceurl/</a></li>
+							</ul>
 						</div>
 					</section>
-
+					<footer>
+						<div className="container">
+							<div className="copyright">© { new Date().getFullYear() } | <a href="https://github.com/Szar/Scrolling-Story" target="_blank" rel="noopener noreferrer">View on Github</a></div>
+						</div>
+					</footer>
 				</article>
 		);
 	}

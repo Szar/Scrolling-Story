@@ -4,12 +4,12 @@ $color-text: #1d1d1d;
 $color: #03DDC0;
 
 $font-family: "Charter", serif;
-$font-size: 21px;
+$font-size: 18px;
 
 $header-font-family: 'Roboto', serif;
 
 $padding: 3rem;
-$width: 980px;
+$width: 930px;
 $width-full: 1440px;
 
 body {
@@ -99,7 +99,7 @@ h1 {
 }
 
 h2 {
-	font-size: 3rem;
+	font-size: 2.8rem;
 	font-weight: 900;
 	line-height: 1.3;
 	margin: 3.2rem 0 2rem;
@@ -198,6 +198,7 @@ section {
 		@media screen and (min-width: 837px) {
 			.sticky--item {
 				padding-top: 7px;
+				padding-bottom: $padding;
 			}
 			>* {
 				&:first-child {
@@ -223,6 +224,9 @@ section {
 				color: #000;
 				background: rgba(255,255,255, 0.55);
 				padding: $padding;
+			}
+			p:last-child {
+				margin-bottom: 0;
 			}
 		}
 		.container {
@@ -342,5 +346,13 @@ section {
 		border-radius: 30px;
 		line-height: 1;
 		padding: 4rem;
+	}
+}
+
+footer {
+	padding: $padding 0;
+	.copyright {
+		text-align: center;
+		font-size: 12px;
 	}
 }
